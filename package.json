@@ -1,0 +1,30 @@
+{
+  "name": "hounou",
+  "version": "0.0.1",
+  "description": "Command line tool deploy code to AWS Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symfoware/hounou.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "deploy"
+  ],
+  "author": "symfoware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/symfoware/hounou/issues"
+  },
+  "homepage": "https://github.com/symfoware/hounou#readme",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.583.0",
+    "archiver": "^7.0.1",
+    "js-yaml": "^4.1.0"
+  }
+}
