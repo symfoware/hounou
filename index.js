@@ -21,30 +21,10 @@ const main = async () => {
         await lambda.makeTask();
 
         // 変更実施
-        // バージョン発行
+        await lambda.deploy();
 
         // 不要なバージョン、レイヤーを削除
-
-
-
-
-
-
-
-        // 指定された関数情報取得
-        //await lambda.getFunctionsInfo();
-        
-        // レイヤー作成
-        //await lambda.createLayers();
-    
-        // レイヤー情報取得
-        //await lambda.getLayer();
-        //await lambda.test();
-    
-        // 本体関数更新
-        //await lambda.update();
-        // バージョン発行
-        //await lambda.publishVersion();
+        await lambda.clean();
         
     } catch(e) {
         console.error(e.message);
