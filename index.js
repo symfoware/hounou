@@ -15,7 +15,7 @@ const main = async () => {
     try {
         const config = new Config(args);
         const lambda = new Lambda(config);
-
+        
         // 処理フロー
         // 変更が必要な内容を確定
         await lambda.makeTask();
