@@ -4,14 +4,15 @@ import { Lambda } from './lib/lambda.js';
 
 const main = async () => {
     const parser = new ArgumentParser({
-        description: 'Argparse example'
-      });
-    //parser.add_argument('deploy');
+        description: 'AWS Lambda Deploy Tool Hounou'
+    });
+    
     parser.add_argument('--region');
     parser.add_argument('--accessKeyId');
     parser.add_argument('--secretAccessKey');
+    parser.add_argument('--config', {default: 'deploy.yml'});
     const args = parser.parse_args();
-    
+
     try {
         const config = new Config(args);
         const lambda = new Lambda(config);
