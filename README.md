@@ -42,6 +42,17 @@ Functions:
       Variables:
         awsConfig: '{"region": "ap-northeast-1"}'
 
+  Test2:
+    FunctionName: debug2 # require
+    Role: arn:aws:iam::012345678901:role/LambdaRole # require
+    Handler: index.handler
+    Description: 'debug2 description'
+    Runtime: nodejs20.x
+    MemorySize: 128
+    Timeout: 15
+    Environment:
+      Variables:
+        awsConfig: '{"region": "ap-northeast-1"}'
 
 Custom:
   Prune:
