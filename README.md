@@ -14,8 +14,8 @@ Functions内に複数の関数定義を持つため、関数に識別用の名�
 
 関数の設定定義は、そのまま関数の作成(CreateFunctionCommand)や更新(UpdateFunctionCodeCommand)に渡されます。  
 関数のドキュメントに記載されている内容がそのまま指定可能です。  
-https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lambda/command/CreateFunctionCommand/  
-https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lambda/command/UpdateFunctionCodeCommand/  
+[CreateFunctionCommand](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lambda/command/CreateFunctionCommand/)  
+[UpdateFunctionCodeCommand](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lambda/command/UpdateFunctionCodeCommand/)  
 
 `Custom:` 関数の設定以外の指定  
 `Prune:Number:` 未使用の関数バージョンをいくつ残すか 指定以上の古いバージョンを削除します。  
