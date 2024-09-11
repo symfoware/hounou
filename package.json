@@ -1,6 +1,6 @@
 {
   "name": "hounou",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line tool deploy code to AWS Lambda.",
   "main": "index.js",
   "bin": {
