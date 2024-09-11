@@ -10,7 +10,7 @@ const main = async () => {
     parser.add_argument('--region');
     parser.add_argument('--accessKeyId');
     parser.add_argument('--secretAccessKey');
-    parser.add_argument('--config', {default: 'deploy.yml'});
+    parser.add_argument('--config', {default: 'hounou.yml'});
     const args = parser.parse_args();
 
     try {

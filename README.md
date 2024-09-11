@@ -2,9 +2,9 @@
 Command line tool deploy code to AWS Lambda.
 
 # 設定ファイル
-デフォルトで同じ階層にあるdeploy.ymlを設定ファイルとして読み込みます。
+デフォルトで同じ階層にあるhounou.ymlを設定ファイルとして読み込みます。
 
-deploy.ymlの形式
+hounou.ymlの形式
 
 `Service:` サービスの名称 レイヤー名として採用します
 
@@ -25,7 +25,7 @@ https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lambda/command/Upd
 `Ignore:` 指定したファイル、パスはLambdaへのアップロードから除外します。  
 
 
-deploy.ymlのサンプル
+hounou.ymlのサンプル
 
 ```
 Service: debug
