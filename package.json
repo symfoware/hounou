@@ -1,6 +1,6 @@
 {
   "name": "hounou",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Command line tool deploy code to AWS Lambda.",
   "main": "index.js",
   "bin": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/symfoware/hounou#readme",
   "type": "module",
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.649.0",
+    "@aws-sdk/client-lambda": "^3.698.0",
     "archiver": "^7.0.1",
     "js-yaml": "^4.1.0"
   }
